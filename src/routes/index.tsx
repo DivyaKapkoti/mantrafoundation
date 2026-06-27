@@ -48,7 +48,7 @@ function Home() {
   return (
     <Layout>
       {/* HERO */}
-      <section className="relative overflow-hidden bg-hero">
+      <section className="relative bg-hero">
         <FloatingBlobs />
         <div className="relative mx-auto max-w-5xl px-4 py-24 sm:py-32 lg:py-44 text-center">
           <motion.div
@@ -114,7 +114,7 @@ function Home() {
       </section>
 
       {/* STATS */}
-      <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 -mt-10">
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mt-4">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-6 rounded-3xl glass p-6 sm:p-8 shadow-card">
           {[
             { n: books.length, s: "+", l: "Published Books" },
