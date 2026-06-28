@@ -43,7 +43,7 @@ function ContactPage() {
   return (
     <Layout>
       <section className="bg-hero">
-        <div className="mx-auto max-w-5xl px-4 py-16 sm:py-24 text-center">
+        <div className="mx-auto max-w-5xl px-4 pt-28 pb-16 sm:pt-36 sm:pb-24 text-center">
           <p className="text-xs uppercase tracking-[0.2em] text-primary font-semibold">Contact</p>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl font-bold">
             Get in <span className="text-gradient">touch</span>
