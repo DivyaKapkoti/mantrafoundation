@@ -50,7 +50,7 @@ function Home() {
       {/* HERO */}
       <section className="relative bg-hero">
         <FloatingBlobs />
-        <div className="relative mx-auto max-w-5xl px-4 py-24 sm:py-32 lg:py-44 text-center">
+        <div className="relative mx-auto max-w-5xl px-4 pt-32 pb-24 sm:py-32 lg:py-44 text-center">
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
