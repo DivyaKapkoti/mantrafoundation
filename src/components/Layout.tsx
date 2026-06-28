@@ -6,8 +6,7 @@ export function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col">
   <SiteHeader />
-  <div className="h-20 sm:h-24" />
-  <main className="flex-1">{children}</main>
+  <main className="flex-1 mt-20 sm:mt-24">{children}</main>
   <SiteFooter />
 </div>
   );
