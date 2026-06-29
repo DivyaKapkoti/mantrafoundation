@@ -75,6 +75,11 @@ const items: GalleryItem[] = [
   // Awards
   { src: "/gallery/awards/Awards_&_Achievements_(1).png", label: "Award Ceremony 1", category: "Awards" },
   { src: "/gallery/awards/Awards_&_Achievements_(2).png", label: "Award Ceremony 2", category: "Awards" },
+
+  // Recent
+  { src: "/gallery/WhatsApp_Image_2026-06-29_at_12.18.12_PM.jpeg", label: "Education Program 6", category: "Education" },
+  { src: "/gallery/WhatsApp_Image_2026-06-29_at_12.18.12_PM_(1).jpeg", label: "Education Program 7", category: "Education" },
+  { src: "/gallery/WhatsApp_Image_2026-06-29_at_12.18.13_PM.jpeg", label: "Education Program 8", category: "Education" },
 ];
 
 function GalleryPage() {
@@ -135,9 +140,9 @@ function GalleryPage() {
               transition={{ duration: 0.5, delay: (i % 8) * 0.04 }}
               className="group mb-5 block w-full overflow-hidden rounded-3xl border border-border/60 bg-card shadow-soft hover:shadow-elegant transition-all break-inside-avoid text-left"
             >
-              <div className="overflow-hidden">
-                <img src={it.src} alt={it.label} loading="lazy"
-                  className="w-full h-auto transition-transform duration-700 group-hover:scale-105" />
+              <div className="overflow-hidden aspect-[4/3] bg-secondary">
+                <img src={it.src} alt={it.label} loading="lazy" decoding="async"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
               <div className="p-4">
                 <p className="text-xs uppercase tracking-widest text-primary font-semibold">{it.category}</p>
