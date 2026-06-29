@@ -49,9 +49,9 @@ export const books: Book[] = [
   // PreVoc
   { id: "prevoc-1", title: "Pre-Vocational – Level 1", subject: "PreVocational", cover: "/books/covers/prevoc-1.png", pdf: "/books/pdfs/prevoc-1.pdf" },
   // Art & Craft
-  { id: "art-craft-1", title: "Art & Craft – Level 1", subject: "Art and Craft", cover: "/books/covers/art-craft-1.png", pdf: "/books/pdfs/art-craft-1.pdf" },
-  { id: "art-craft-2", title: "Art & Craft – Level 2", subject: "Art and Craft", cover: "/books/covers/art-craft-2.png", pdf: "/books/pdfs/art-craft-2.pdf" },
-  { id: "art-craft-3", title: "Art & Craft – Level 3", subject: "Art and Craft", cover: "/books/covers/art-craft-3.png", pdf: "/books/pdfs/art-craft-3.pdf" },
+  { id: "art-craft-1", title: "Art & Craft – Level 1", subject: "Art and Craft", cover: "/books/covers/art-craft/Art_and_Craft_level1.png", pdf: "/books/pdfs/art-craft-1.pdf" },
+  { id: "art-craft-2", title: "Art & Craft – Level 2", subject: "Art and Craft", cover: "/books/covers/art-craft/Art_and_Craft_level2.png", pdf: "/books/pdfs/art-craft-2.pdf" },
+  { id: "art-craft-3", title: "Art & Craft – Level 3", subject: "Art and Craft", cover: "/books/covers/art-craft/Art_and_Craft_level3.png", pdf: "/books/pdfs/art-craft-3.pdf" },
 ];
 
 export const SOCIAL = {
